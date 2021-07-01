@@ -1,0 +1,26 @@
+10:54:37.947 01-07-21 main                  INFO ightManagementApplication               logStarting   55 Starting FlightManagementApplication using Java 11.0.2 on DESKTOP-LK38R83 with PID 1932 (C:\Users\Ebenezar\Downloads\FlightManagement\target\classes started by Ebenezar in C:\Users\Ebenezar\Downloads\FlightManagement)
+10:54:37.993 01-07-21 main                  INFO ightManagementApplication     logStartupProfileInfo  659 No active profile set, falling back to default profiles: default
+10:54:52.811 01-07-21 main                  INFO s.b.w.e.t.TomcatWebServer                initialize  108 Tomcat initialized with port(s): 8080 (http)
+10:54:53.016 01-07-21 main                  INFO o.a.c.c.StandardService                         log  173 Starting service [Tomcat]
+10:54:53.018 01-07-21 main                  INFO o.a.c.core.StandardEngine                       log  173 Starting Servlet engine: [Apache Tomcat/9.0.46]
+10:54:54.131 01-07-21 main                  INFO o.a.c.c.C.[.[.[/]                               log  173 Initializing Spring embedded WebApplicationContext
+10:54:54.135 01-07-21 main                  INFO bServerApplicationContext prepareWebApplicationContext  290 Root WebApplicationContext: initialization completed in 15521 ms
+10:55:00.318 01-07-21 main                  WARN bServerApplicationContext                   refresh  591 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+10:55:00.329 01-07-21 main                  INFO o.a.c.c.StandardService                         log  173 Stopping service [Tomcat]
+10:55:00.511 01-07-21 main                  INFO tionReportLoggingListener                logMessage  136 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:55:00.747 01-07-21 main                 ERROR ngFailureAnalysisReporter                    report   40 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
